@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contac tUs</title>
+    <link rel="stylesheet" href="../css/contactUs.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home </a></li>
+                <li><a href="../html/moreContent.html">More </a></li>
+                <li><a href="../html/aboutMe.html">About me </a></li>
+                <li><a href="../html/contactUs.html">Contact us </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <form action="#" method="post">
+            <div class="names">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name lastname">
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" required placeholder="example@example.com">
+            </div>
+            <div class="tel">
+                <label for="tel">Telephone:</label>
+                <input type="tel" placeholder="+57 ### ### ####">
+            </div>
+            <div class="country">
+                <label for="country">Country:</label>
+                <input type="text" list="address" id="country" name="country" placeholder="Colombia">
+                <datalist id="address">
+                    <option value="Colombia"></option>
+                    <option value="Mexico"></option>
+                    <option value="Argentina"></option>
+                    <option value="Chile"></option>
+                </datalist>
+            </div>
+            <div class="city">
+                <label for="city">City:</label>
+                <input type="text" id="city" placeholder="Armenia">
+            </div>
+            <div id="checkboxs">
+                <h3>Why are you contacting us?</h3>
+                <label for="horror">I like horror</label>
+                <input type="checkbox" id="horror" name="because" value="I like horror">
+                <label for="know">I would like to know more</label>
+                <input type="checkbox" id="know" name="because" value="I would like to know more">
+            </div>
+            <div id="textarea">
+                <label for="message">Recommendations:</label><br>
+                <textarea name="message" id="message" cols="30" rows="10">
+                    Thanks for the content! 
+                </textarea>
+            </div>
+            <div id="send">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

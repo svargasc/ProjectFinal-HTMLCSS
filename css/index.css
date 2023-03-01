@@ -1,0 +1,202 @@
+body{
+    width: 100%;
+    background: #000000;
+    margin: 0;
+    color: rgb(202, 197, 197);
+    font-family: sans-serif;
+}
+header nav{
+    background: #310606;
+    width: 100%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 22px;
+    box-shadow: 5px 5px 10px rgb(120, 11, 11);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding: 1%;
+    list-style: none;
+    text-transform: uppercase;
+}
+ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li:hover{
+    color: #ffffff;
+    font-size: 26px;
+    list-style: url(../images/skull.png);
+}
+div{
+    width: 100%;
+    text-align: center;
+}
+video{
+    width: 50%;
+    box-shadow: 1px 1px 10px 10px rgb(120, 11, 11);
+    margin-bottom: 2%;
+}
+/* Class */
+.navItems{
+    width: 500px;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+.navItems ul{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    list-style: url(../images/skull.png);
+    margin-bottom: 4%;
+}
+.sectionImageRight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sectionImageRight h1{
+    text-align: center;
+    width: 100%;
+    margin: 1%;
+}
+.sectionImageLeft{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sectionImageLeft h1{
+    text-align: center;
+    width: 100%;
+    margin: 1%;
+}
+.content1S1,.content2S1{
+    width: 50%;
+}
+.content1S1 p{
+    margin-left: 6%;
+    width: 90%;
+    padding: 1%;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    color: rgb(60, 66, 72);
+}
+.content2S1 img{
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 1px 5px 10px 10px rgb(120, 11, 11);
+}
+.content2S1 ul{
+    text-align: start;
+    width: 50%;
+    padding: 0;
+    margin-left: 25%;
+    list-style: url(../images/skull.png);
+    font-size: 22px;
+}
+.content1S2,.content2S2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.content1S2 img{
+    width: 60%;
+    margin-left: 8%;
+    box-shadow: 1px 5px 10px 10px rgb(120, 11, 11);
+}
+.content2S2 p{
+    width: 90%;
+    padding: 1%;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    color: rgb(60, 66, 72);
+    font-size: 16px;
+}
+.content2S2 ul{
+    text-align: start;
+    width: 90%;
+    padding: 0;
+    list-style: url(../images/skull.png);
+    font-size: 22px;
+}
+
+@media screen and (max-width: 576px){
+    header{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        display: block;
+        margin-top: 0;
+        list-style: none;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    video{
+        width: 90%;
+        margin-bottom: 4%;
+    }
+    .navItems{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 4%;
+    }
+    .navItems ul{
+        text-align: start;
+        display: block;
+    }
+    .sectionImageRight{
+        display: block;
+        width: 100%;
+    }
+    .sectionImageLeft{
+        display: block;
+        width: 100%;
+    }
+    .content1S1,.content2S1{
+        display: block;
+        width: 100%;
+    }
+    .content1S2,.content2S2{
+        display: block;
+        width: 100%;
+    }
+    .sectionImageRight,.sectionImageLeft{
+        width: 100%;
+        margin: 0;
+    }
+    .sectionImageRight h1,.sectionImageLeft h1{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 4%;
+    }
+    .content1S1 p, .content2S2 p{
+        margin: 0;
+        margin-bottom: 4%;
+        width: 100%;
+    }
+    .content1S2 img, .content2S1 img{
+        margin: 0;
+        margin-bottom: 4%;
+        width: 90%;
+    }
+    .content2S2 ul, .content2S1 ul{
+        width: 50%;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 4%;
+    }
+}
