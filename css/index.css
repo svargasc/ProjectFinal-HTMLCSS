@@ -137,15 +137,23 @@ video{
     body{
         width: 100%;
         margin: 0;
+        padding: 0;
     }
     header{
         width: 100%;
         margin: 0;
+        padding: 0;
+    }
+    nav{
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
     nav ul{
         width: 100%;
         display: block;
         margin: 0;
+        padding: 0;
         list-style: none;
         text-transform: uppercase;
         text-align: center;
@@ -154,19 +162,23 @@ video{
         color: #ffffff;
         font-size: 26px;
         list-style: url(../images/skull.png);
+        padding: 0;
     }
     ul li.listA{
         color: #ffffff;
         font-size: 24px;
         list-style: url(../images/skull.png);
+        padding: 0;
     }
     video{
         width: 90%;
         margin-bottom: 4%;
+        padding: 0;
     }
     .navItems{
         width: 100%;
         margin: 0;
+        padding: 0;
         margin-bottom: 4%;
     }
     .navItems ul{
@@ -176,42 +188,51 @@ video{
     .sectionImageRight{
         display: block;
         width: 100%;
+        padding: 0;
     }
     .sectionImageLeft{
         display: block;
         width: 100%;
+        padding: 0;
     }
     .content1S1,.content2S1{
         display: block;
         width: 100%;
+        padding: 0;
     }
     .content1S2,.content2S2{
         display: block;
         width: 100%;
+        padding: 0;
     }
     .sectionImageRight,.sectionImageLeft{
         width: 100%;
         margin: 0;
+        padding: 0;
     }
     .sectionImageRight h1,.sectionImageLeft h1{
         width: 100%;
         margin: 0;
+        padding: 0;
         margin-bottom: 4%;
     }
     .content1S1 p, .content2S2 p{
         margin: 0;
         margin-bottom: 4%;
         width: 100%;
+        padding: 0;
     }
     .content1S2 img, .content2S1 img{
         margin: 0;
         margin-bottom: 4%;
         width: 90%;
+        padding: 0;
     }
     .content2S2 ul, .content2S1 ul{
         width: 50%;
         margin: 0;
         margin-left: 10%;
         margin-bottom: 4%;
+        padding: 0;
     }
 }
