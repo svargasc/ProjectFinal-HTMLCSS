@@ -145,14 +145,15 @@ video{
         text-transform: uppercase;
         text-align: center;
     }
-    li{
+    
+    li.links:hover{
         color: #ffffff;
         font-size: 26px;
         list-style: url(../images/skull.png);
     }
-    li.red:hover{
+    ul li.listA{
         color: #ffffff;
-        font-size: 26px;
+        font-size: 24px;
         list-style: url(../images/skull.png);
     }
     video{
