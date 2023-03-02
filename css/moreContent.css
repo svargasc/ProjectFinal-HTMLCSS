@@ -84,3 +84,16 @@ footer ul{
     border-radius: 5px;
     box-shadow: 1px 5px 10px 10px rgba(255, 255, 255, 0.361);
 }
+@media screen and (max-width: 576px){
+    header{
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        display: block;
+        margin-top: 0;
+        list-style: none;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
