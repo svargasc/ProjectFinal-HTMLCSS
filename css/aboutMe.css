@@ -56,12 +56,12 @@ p{
 }
 
 .img{
-    background-color: #3106068f;
+    /* background-color: #3106068f; */
     width: 50%;
     text-align: center;
 }
 .info{
-    background-color: #3106068f;
+    /* background-color: #3106068f; */
     width: 50%;
 }
 
@@ -74,6 +74,10 @@ p{
     height: 100%;
 }
 @media screen and (max-width: 576px){
+    body{
+        /* background-color: #480909ed; */
+        background: linear-gradient(to left, #000000, #4f0707);
+    }
     header{
         width: 100%;
     }
@@ -84,5 +88,21 @@ p{
         list-style: none;
         text-transform: uppercase;
         text-align: center;
+    }
+    ul li{
+        margin-top: 4%;
+        padding: 0;
+    }
+    #content{
+        display: block;
+        width: 100%;
+    }
+    .info{
+        padding: 0;
+        width: 100%;
+    }
+    .img{
+        padding: 0;
+        width: 100%;
     }
 }
