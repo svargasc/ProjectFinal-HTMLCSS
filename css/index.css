@@ -31,6 +31,12 @@ li:hover{
     font-size: 26px;
     list-style: url(../images/skull.png);
 }
+ul li.listA{
+    color: #ffffff;
+    font-size: 24px;
+    list-style: url(../images/skull.png);
+    padding: 0;
+}
 div{
     width: 100%;
     text-align: center;
