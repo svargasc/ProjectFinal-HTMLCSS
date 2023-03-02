@@ -99,6 +99,11 @@ footer ul{
         text-transform: uppercase;
         text-align: center;
     }
+    nav li:hover {
+        color: #ffffff;
+        font-size: 26px;
+        list-style: none;
+    }
     div{
         width: 100%;
         margin: 0;
