@@ -85,11 +85,6 @@ footer ul{
     box-shadow: 1px 5px 10px 10px rgba(255, 255, 255, 0.361);
 }
 @media screen and (max-width: 576px){
-    body{
-        width: 100%;
-        margin: 0;
-        padding: 0;    
-    }
     header{
         width: 100%;
         margin: 0;
@@ -98,7 +93,7 @@ footer ul{
     nav ul{
         width: 100%;
         display: block;
-        margin: 0;
+        margin-top: 0;
         padding: 0;
         list-style: none;
         text-transform: uppercase;
