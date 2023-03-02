@@ -87,11 +87,14 @@ footer ul{
 @media screen and (max-width: 576px){
     header{
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
     nav ul{
         width: 100%;
         display: block;
         margin-top: 0;
+        padding: 0;
         list-style: none;
         text-transform: uppercase;
         text-align: center;
