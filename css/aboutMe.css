@@ -82,6 +82,14 @@ p{
         margin: 0;
         padding: 0;
     }
+    header,nav{
+        background: linear-gradient(to left, #4f0707, #000000 );
+        width: 100%;
+        margin-bottom: 1%;
+        font-weight: 900;
+        font-size: 22px;
+        box-shadow: none;
+    }
     nav{
         width: 100%;
         margin: 0;
@@ -112,16 +120,24 @@ p{
         margin-top: 4%;
         padding: 0;
     }
-    #content{
-        display: block;
+    p{
         width: 100%;
-        padding: 0;
+        line-height: 30px;
+        font-size: 16px;
     }
     .info{
+        width: 90%;
+        margin: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .img{
         padding: 0;
         width: 100%;
     }
-    .img{
+    #content{
+        display: block;
+        margin: 0;
         padding: 0;
         width: 100%;
     }

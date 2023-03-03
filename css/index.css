@@ -138,6 +138,44 @@ video{
     list-style: url(../images/skull.png);
     font-size: 22px;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(36, 6, 6);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+footer .finalList{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+footer p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+.finalList ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: end;
+    width: 100%;
+    list-style: none;
+}
+.finalList ul li{
+    padding-left: 8%;
+}
+.finalList ul li:hover{
+    list-style: none;
+    font-size: 14px;
+}
 
 @media screen and (max-width: 576px){
     body{
@@ -236,12 +274,12 @@ video{
     .content1S1 p, .content2S2 p{
         margin: 0;
         margin-bottom: 8%;
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
         padding-left: 8px;
         padding-right: 8px;
         line-height: 40px;
-        font-size: 20px;
+        font-size: 18px;
         text-align: start;
     }
     .content1S2 img, .content2S1 img{
@@ -250,14 +288,6 @@ video{
         margin-top: 8%;
         width: 90%;
         margin-left: 5%;
-    }
-    .content2S2 ul, .content2S1 ul{
-        width: 50%;
-        margin: 0;
-        margin-left: 10%;
-        margin-bottom: 4%;
-        padding: 0;
-        list-style: url(../images/skull.png);
     }
     .content2S1 ul.Ul1, .content2S1 ul.Ul2{
         display: flex;
@@ -271,18 +301,23 @@ video{
     }
     .content2S1 ul.Ul1, .content2S2 ul.Ul1{
         margin: 0;
-        width: 50%;
-        margin-left: 20%;
+        width: 100%;
+        line-height: 50px;
     }
     .content2S1 ul.Ul2, .content2S2 ul.Ul2{
         margin: 0;
-        width: 50%;
-        margin-left: 20%;
+        width: 100%;
+        line-height: 50px;
     }
     ul.Ul1 li, ul.Ul2 li{
-        font-size: 18px;
-        margin-left: 14%;
+        font-size: 14px;
+        margin-left: 12%;
         width: 100%;
         list-style: url(../images/skull.png);
+    }
+    footer p{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin: 0;
     }
 }
