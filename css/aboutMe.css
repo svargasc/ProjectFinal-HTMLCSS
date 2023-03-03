@@ -54,7 +54,6 @@ img{
 p{
     width: 90%;
 }
-
 .img{
     width: 50%;
     text-align: center;
@@ -70,6 +69,7 @@ p{
     width: 100%;
     height: 100%;
 }
+
 @media screen and (max-width: 576px){
     body{
         width: 100%;

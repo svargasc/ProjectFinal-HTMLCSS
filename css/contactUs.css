@@ -68,7 +68,6 @@ input[type="submit"]{
     background-color: #540b0b;
     color: white;
 }
-
 .names,
 .email,
 .tel,
@@ -132,6 +131,7 @@ footer p{
     list-style: none;
     font-size: 14px;
 }
+
 @media screen and (max-width: 576px){
     body{
         width: 100%;
