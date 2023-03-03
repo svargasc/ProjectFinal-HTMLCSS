@@ -157,28 +157,36 @@ video{
     }
     nav ul{
         width: 100%;
-        display: block;
+        display: flex;
         margin: 0;
-        padding: 0;
         list-style: none;
         text-transform: uppercase;
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 18px;
+        padding-bottom: 18px;
     }
-    li.links:hover{
+    nav a{
+        font-size: 14px;
+    }
+    a:hover{
         color: #ffffff;
-        font-size: 26px;
-        list-style: url(../images/skull.png);
+        font-size: 18px;
+        list-style: none;
         padding: 0;
     }
     ul li.listA{
         color: #ffffff;
         font-size: 24px;
-        list-style: url(../images/skull.png);
+        list-style: none;
         padding: 0;
+        list-style: url(../images/skull.png);
     }
     video{
         width: 90%;
         margin-bottom: 4%;
+        margin-top: 4%;
         padding: 0;
     }
     .navItems{
@@ -202,12 +210,14 @@ video{
         padding: 0;
     }
     .content1S1,.content2S1{
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         padding: 0;
     }
     .content1S2,.content2S2{
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         padding: 0;
     }
@@ -220,19 +230,26 @@ video{
         width: 100%;
         margin: 0;
         padding: 0;
-        margin-bottom: 4%;
+        margin-bottom: 8%;
+        margin-top: 8%;
     }
     .content1S1 p, .content2S2 p{
         margin: 0;
-        margin-bottom: 4%;
-        width: 100%;
-        padding: 0;
+        margin-bottom: 8%;
+        width: 80%;
+        margin-left: 10%;
+        padding-left: 8px;
+        padding-right: 8px;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: start;
     }
     .content1S2 img, .content2S1 img{
         margin: 0;
-        margin-bottom: 4%;
+        margin-bottom: 8%;
+        margin-top: 8%;
         width: 90%;
-        padding: 0;
+        margin-left: 5%;
     }
     .content2S2 ul, .content2S1 ul{
         width: 50%;
@@ -240,5 +257,32 @@ video{
         margin-left: 10%;
         margin-bottom: 4%;
         padding: 0;
+        list-style: url(../images/skull.png);
+    }
+    .content2S1 ul.Ul1, .content2S1 ul.Ul2{
+        display: flex;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    .content2S2 ul.Ul1, .content2S2 ul.Ul2{
+        display: flex;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    .content2S1 ul.Ul1, .content2S2 ul.Ul1{
+        margin: 0;
+        width: 50%;
+        margin-left: 20%;
+    }
+    .content2S1 ul.Ul2, .content2S2 ul.Ul2{
+        margin: 0;
+        width: 50%;
+        margin-left: 20%;
+    }
+    ul.Ul1 li, ul.Ul2 li{
+        font-size: 18px;
+        margin-left: 14%;
+        width: 100%;
+        list-style: url(../images/skull.png);
     }
 }
