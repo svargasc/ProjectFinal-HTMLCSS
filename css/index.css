@@ -321,4 +321,8 @@ footer p{
         margin: 0;
         font-size: 12px;
     }
+    .finalList ul li:hover{
+        list-style: none;
+        font-size: 14px;
+    }
 }
